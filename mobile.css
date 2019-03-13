@@ -1,0 +1,38 @@
+.side-bar {
+	position: relative;
+	width: 100%;
+	float: none;
+}
+
+.side-bar .nav,
+.side-bar .tag-list {
+	display: none;
+	text-align: center;
+}
+
+#menu-taggle {
+	display: block;
+	float: right;
+	padding:20px 30px;
+	font-size: 18px;
+	font-weight: 200;
+	color: rgba(255,255,255,.7);
+}
+
+#menu-checkbox:checked ~ .nav,
+#menu-checkbox:checked ~ .tag-list {
+	display: block;
+}
+
+.main {
+	width: 100%;
+	padding-left: 10px;
+	padding-right: 10px;
+
+}
+
+.article-list, .article {
+	margin: 0;
+
+}
+
